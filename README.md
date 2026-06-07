@@ -41,7 +41,7 @@ sudo nmap -sn -n 192.168.87.0/24
 
 ### Screenshot
 
-![Network Discovery](images/Network%20discovery.png)
+![Network Discovery](C5%20Enumeration/Network%20discovery.png)
 
 ### Result
 
@@ -64,7 +64,7 @@ nmap -F -n 192.168.87.133
 
 ## Screenshot
 
-![Fast Nmap Scan](images/fast%20nmap%20scan.png)
+![Fast Nmap Scan](C5%20Enumeration/fast%20nmap%20scan.png)
 
 ## Result
 
@@ -96,7 +96,7 @@ snmpwalk -v1 -c public 192.168.87.133
 
 ## Screenshot
 
-![SNMPwalk](images/SNMAPWALK.png)
+![SNMPwalk](C5%20Enumeration/SNMAPWALK.png)
 
 ## Verification
 
@@ -106,7 +106,7 @@ nmap -sU -p161 -n 192.168.87.133
 
 ## Screenshot
 
-![SNMP Verification](images/snmp-verification.png)
+![SNMP Verification](C5%20Enumeration/snmp-verification.png)
 
 ## Result
 
@@ -134,7 +134,7 @@ ping -c 4 192.168.87.133
 
 ## Screenshot
 
-![TTL OS Fingerprinting](images/TTL%20OS%20Fingerprinting.png)
+![TTL OS Fingerprinting](C5%20Enumeration/TTL%20OS%20Fingerprinting.png)
 
 ## Result
 
@@ -167,7 +167,7 @@ EXPN root
 
 ## Screenshot
 
-![SMTP VRFY EXPN](images/SMTP%20VRFY%20EXPN.png)
+![SMTP VRFY EXPN](C5%20Enumeration/SMTP%20VRFY%20EXPN.png)
 
 ## Result
 
@@ -200,7 +200,7 @@ nc 192.168.87.133 21
 
 ## Screenshot
 
-![FTP Banner](images/FTP%20Banner.png)
+![FTP Banner](C5%20Enumeration/FTP%20Banner.png)
 
 ## Result
 
@@ -233,7 +233,7 @@ Password: anonymous
 
 ## Screenshot
 
-![Anonymous FTP Login](images/Anonymous%20FTP%20Login.png)
+![Anonymous FTP Login](C5%20Enumeration/Anonymous%20FTP%20Login.png)
 
 ## Result
 
@@ -259,7 +259,7 @@ nmap -n --script smb-os-discovery -p445 192.168.87.133
 
 ## Screenshot
 
-![SMB NSE Enumeration](images/SMB%20NSE%20Enumeration.png)
+![SMB NSE Enumeration](C5%20Enumeration/SMB%20NSE%20Enumeration.png)
 
 ## Result
 
@@ -286,7 +286,7 @@ showmount -e 192.168.87.133
 
 ## Screenshot
 
-![NFS Exports](images/NFS%20Exports.png)
+![NFS Exports](C5%20Enumeration/NFS%20Exports.png)
 
 ## Result
 
@@ -312,7 +312,7 @@ nmap -sV -n 192.168.87.133
 
 ## Screenshot
 
-![Version Detection](images/Version%20Detection.png)
+![Version Detection](C5%20Enumeration/Version%20Detection.png)
 
 ## Result
 
@@ -342,7 +342,7 @@ sudo nmap -O -n 192.168.87.133
 
 ## Screenshot
 
-![OS Detection](images/OS%20Detection.png)
+![OS Detection](C5%20Enumeration/OS%20Detection.png)
 
 ## Result
 
@@ -368,7 +368,7 @@ rpcinfo -p 192.168.87.133
 
 ## Screenshot
 
-![RPC Info](images/RPC%20Info.png)
+![RPC Info](C5%20Enumeration/RPC%20Info.png)
 
 ## Result
 
